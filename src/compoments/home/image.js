@@ -6,7 +6,7 @@ function Image(){
     return (
       <div className="container-fluid p-0">
         <div className="row m-0" id="DivTotal">
-        <h3>Nephilim Warbrides</h3>
+        <h6>Nephilim Warbrides</h6>
           <div className="col-12">
             <img className="img-fluid" src={logo} alt="Logo" width="150" height="150" />
           </div>
