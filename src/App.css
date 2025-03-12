@@ -1,0 +1,21 @@
+body{
+    background:#D9D9D9;
+}
+#DivTotal{
+    background-color: #000000;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.carousel-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#case-1, #case-2, #case-3, #case-4 {
+    background-color: #D9D9D9;
+    text-align: center;
+    border: 5px solid #9D9797;
+    padding: 10px;
+    border-radius: 0px;
+}
