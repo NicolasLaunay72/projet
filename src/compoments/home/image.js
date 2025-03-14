@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from "../../compoments/home/logo/logo.png";
+import logo from "../../compoments/home/logo/logo1.png";
 
 function Image(){
     return (
@@ -8,7 +8,7 @@ function Image(){
         <div className="row m-0" id="DivTotal">
         <h6>Nephilim Warbrides</h6>
           <div className="col-12">
-            <img className="img-fluid" src={logo} alt="Logo" width="150" height="150" />
+            <img className="img-fluid" src={logo} alt="Logo" width="250" height="250" />
           </div>
         </div>
       </div>

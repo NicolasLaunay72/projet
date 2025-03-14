@@ -1,14 +1,18 @@
 import React from "react";
-import Image from "../../compoments/news/image";
-import Slider from "../../compoments/news/slider";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image3 from "../../compoments/news/image";
+import Menu from "../../compoments/home/menu";
+import News_Majeur from "../../compoments/news/news_majeur";
+import Autre_News from "../../compoments/news/autres_news";
 
-function Main(){
+function News(){
     return (
         <>
-        <Image />
-        <Slider />
+        <Image3 />
+        <Menu />
+        <News_Majeur />
+        <Autre_News />
         </>
     );
 }
-export default Main;
+export default News;

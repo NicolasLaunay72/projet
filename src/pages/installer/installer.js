@@ -1,14 +1,18 @@
 import React from "react";
-import Image from "../../compoments/installer/image";
-import Slider from "../../compoments/installer/slider";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image2 from "../../compoments/installer/image";
+import Menu from "../../compoments/home/menu";
+import Installer2 from "../../compoments/installer/installe";
+import Copyright2 from "../../compoments/installer/copyright";
 
-function Main(){
+function Main2(){
     return (
         <>
-        <Image />
-        <Slider />
+        <Image2 />
+        <Menu />
+        <Installer2 />
+        <Copyright2 />
         </>
     );
 }
-export default Main;
+export default Main2;

@@ -1,11 +1,24 @@
 import React from "react";
-import Main from "./pages/home/main";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css"
+import Main from "./pages/home/main";
+import News from "./pages/news/news";
+import Main2 from "./pages/installer/installer";
+import Forum from "./pages/forum/forum";
+
+
 
 function App(){
   return (
-    <Main />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/installer" element={<Main2 />} />
+        <Route path="/forum" element={<Forum />} />
+      </Routes>
+    </Router>
   );
 }
-export default App
+export default App;
