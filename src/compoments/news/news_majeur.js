@@ -7,37 +7,32 @@ function News_Majeur(){
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Première News",
         description: "Description de la première news.",
+        link: "https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l",
     },
     {
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Deuxième News",
         description: "Description de la deuxième news.",
+        link: "https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l",
     },
     {
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Troisième News",
         description: "Description de la troisième news.",
+        link: "https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l",
     },
     ];
-    ImageSlider.map((item, index) => (
-        <div
-            key={index}
-            onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")}
-        >
-            <img src={item.img} alt="img" />
-        </div>
-    ));
     return (
         <div className="container" id="sliderNews" style={{backgroundColor: "#9D9797"}}>
             <div className="row">
                 <h1 className="text-center" id="titre-1">News Majeur</h1>
-                <div className="col-12 w-100">
+                <div className="col-12 d-block mx-auto w-50">
                     <Carousel>
                         {ImageSlider.map((image, index) => (
                             <Carousel.Item key={index}>
-                                <img className="img-fluid d-block mx-auto" src={image.url} alt={`Slide ${index + 1}`} />
+                                <img className="img-fluid d-block mx-auto" src={image.url} alt={`Slide ${index + 1}`} style={{ cursor: "pointer" }} onClick={() => window.open(image.link, "_blank")} />
                                 <Carousel.Caption>
-                                    <h5 className="py-6">{image.title}</h5>
+                                    <h5 className="py-2 cursor-pointer" onClick={() => window.open(image.link, "_blank")} style={{ cursor: "pointer", color: "#FFFFFF" }}>{image.title}</h5>
                                     <p>{image.description}</p>
                                 </Carousel.Caption>
                             </Carousel.Item>

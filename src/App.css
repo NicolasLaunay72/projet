@@ -26,3 +26,6 @@ body{
     padding: 10px;
     border-radius: 0px;
 }
+.navbar-dark {
+    --bs-nav-link-hover-color: #005000;
+}

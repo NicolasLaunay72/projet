@@ -46,20 +46,20 @@ function Slider() {
       <div className="row">
         <h1 className="text-center" id="titre-2">Fonctionnalité du jeu:</h1>
         <div className="col-3" id="case-1">
-        <h3 className="text-center">Classes</h3>
-        <h5>Explication des Classes</h5>
+        <h3 className="text-center cursor-pointer" style={{cursor: "pointer", color: "#000000"}}>Classes</h3>
+        <h5 className="py-2 cursor-pointer" onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")} style={{ cursor: "pointer", color: "#4d81cb" }}>Explication des Classes</h5>
         </div>
         <div className="col-3" id="case-2">
-        <h3 className="text-center">Craft</h3>
-        <h5>Explication des Crafts</h5>
+        <h3 className="text-center cursor-pointer" style={{cursor: "pointer", color: "#000000"}}>Craft</h3>
+        <h5 className="py-2 cursor-pointer" onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")} style={{ cursor: "pointer", color: "#4d81cb" }}>Explication des Crafts</h5>
         </div>
         <div className="col-3" id="case-3">
-        <h3 className="text-center">Donjons</h3>
-        <h5>Explication des Donjons</h5>
+        <h3 className="text-center cursor-pointer" style={{cursor: "pointer", color: "#000000"}}>Donjons</h3>
+        <h5 className="py-2 cursor-pointer" onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")} style={{ cursor: "pointer", color: "#4d81cb" }}>Explication des Donjons</h5>
         </div>
         <div className="col-3" id="case-4">
-        <h3 className="text-center">Guildes</h3>
-        <h5>Explication des Guildes</h5>
+        <h3 className="text-center cursor-pointer" style={{cursor: "pointer", color: "#000000"}}>Guildes</h3>
+        <h5 className="py-2 cursor-pointer" onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")} style={{ cursor: "pointer", color: "#4d81cb" }}>Explication des Guildes</h5>
         </div>
       </div>
     </div>
