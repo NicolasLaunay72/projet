@@ -4,6 +4,7 @@ import Image3 from "../../compoments/news/image";
 import Menu from "../../compoments/home/menu";
 import News_Majeur from "../../compoments/news/news_majeur";
 import Autre_News from "../../compoments/news/autres_news";
+import Copyright3 from "../../compoments/news/copyright";
 
 function News(){
     return (
@@ -12,6 +13,7 @@ function News(){
         <Menu />
         <News_Majeur />
         <Autre_News />
+        <Copyright3 />
         </>
     );
 }
