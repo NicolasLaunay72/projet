@@ -1,31 +1,93 @@
-body{
-    background:#D9D9D9;
+body {
+    background: url('../public/background/wallpaper.png') no-repeat center center fixed #7ee90b;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif; /* Application de la police Roboto */
+    color: #000000;
+    margin: 0;
+    padding: 0;
 }
-#DivTotal{
-    background-color: #000000;
+
+#DivTotal {
+    background-color: rgba(0, 0, 0, 0.8); /* semi-transparent background */
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+    padding: 50px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
+
 .carousel-container {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
 }
+
 #case-1, #case-2, #case-3, #case-4 {
-    background-color: #D9D9D9;
+    background-color: rgba(217, 217, 217, 0.9); /* slightly transparent */
     text-align: center;
     border: 5px solid #9D9797;
-    padding: 10px;
-    border-radius: 0px;
+    padding: 10px 15px; /* padding réduit */
+    border-radius: 10px;
+    margin: auto; /* marge réduite */
+    width: 300px; /* largeur réduite */
+    height: 300px; /* hauteur réduite */
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-#installation {
-    background-color: #D9D9D9;
+
+#case-1:hover, #case-2:hover, #case-3:hover, #case-4:hover {
+    transform: scale(1.1); /* effet de zoom plus marqué */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#installation, #slider-container {
+    background-color: rgba(217, 217, 217, 0.9);
     text-align: center;
     border: 5px solid #9D9797;
-    padding: 10px;
-    border-radius: 0px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.navbar-dark {
-    --bs-nav-link-hover-color: #005000;
+
+#installation:hover, #slider-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #000000 !important;
+}
+
+.navbar-dark, .navbar[data-bs-theme="dark"] {
+    --bs-navbar-hover-color: rgba(244, 12, 12, 0.75);
+}
+
+#bouton-download {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#bouton-download:hover {
+    background-color: #FF5733; /* Bright accent color */
+    transform: translateY(-3px);
+}
+
+#bouton-download:active {
+    transform: translateY(1px);
 }

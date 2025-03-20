@@ -25,7 +25,7 @@ function Menu() {
                     <NavDropdown title="Support" id="basic-nav-dropdown">
                         <NavDropdown.Item href="https://discord.gg/Zq99VtyT5x">Discord</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Autre Contacts</NavDropdown.Item>
+                        <NavDropdown.Item href="/support">Autre Contacts</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 </Navbar.Collapse>

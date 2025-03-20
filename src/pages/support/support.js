@@ -1,13 +1,15 @@
 import React from "react";
-import Image from "../../compoments/support/image";
-import Slider from "../../compoments/support/slider";
+import Image4 from "../../compoments/support/image";
+import Menu from "../../compoments/home/menu";
+import Autre_Support from "../../compoments/support/autres-contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Main(){
     return (
         <>
-        <Image />
-        <Slider />
+        <Image4 />
+        <Menu />
+        <Autre_Support />
         </>
     );
 }

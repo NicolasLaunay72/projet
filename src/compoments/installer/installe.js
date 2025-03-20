@@ -8,10 +8,10 @@ function Installer2() {
       <div className="row">
         <div className="col-6 text-center">
           <a href="https://youtu.be/IxX_QHay02M" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-primary m-2 text-center">Windows (32Bits)</button>
+            <button className="btn btn-primary m-2 text-center" id="bouton-download">Windows (32Bits)</button>
           </a>
           <a href="https://youtu.be/IxX_QHay02M" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-primary m-2 text-center">Windows (64Bits)</button>
+            <button className="btn btn-primary m-2 text-center" id="bouton-download">Windows (64Bits)</button>
           </a>
           <h4 className="text-center">Prérequis (Minimum)</h4>
           <h5 className="text-center">OS: Windows 7 ou plus</h5>
@@ -22,10 +22,10 @@ function Installer2() {
         </div>
         <div className="col-6 text-center">
           <a href="https://youtu.be/IxX_QHay02M" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-primary m-2 text-center">MacOS (32Bits)</button>
+            <button className="btn btn-primary m-2 text-center" id="bouton-download">MacOS (32Bits)</button>
           </a>
           <a href="https://youtu.be/IxX_QHay02M" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-primary m-2 text-center">MacOS (64Bits)</button>
+            <button className="btn btn-primary m-2 text-center" id="bouton-download">MacOS (64Bits)</button>
           </a>
           <h4 className="text-center">Prérequis (Recommandé)</h4>
           <h5 className="text-center">OS: Windows 10 ou plus</h5>

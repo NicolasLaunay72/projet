@@ -22,7 +22,7 @@ function Slider() {
   ];
 
   return (
-    <div className="container" style={{ backgroundColor: "#9D9797" }}>
+    <div className="container" id="slider-container">
       <div className="row">
         <h1 className="text-center" id="titre-1">MMORPG 100% FR</h1>
         <div className="col-6">
