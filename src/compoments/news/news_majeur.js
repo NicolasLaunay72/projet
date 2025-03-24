@@ -23,9 +23,9 @@ function News_Majeur(){
     },
     ];
     return (
-        <div className="container" id="sliderNews" style={{backgroundColor: "#9D9797"}}>
+        <div className="container" id="slider-container-2">
             <div className="row">
-                <h1 className="text-center" id="titre-1">News Majeur</h1>
+                <h2 className="text-center" id="titre-1">News Majeur</h2>
                 <div className="col-12 d-block mx-auto w-50">
                     <Carousel>
                         {ImageSlider.map((image, index) => (

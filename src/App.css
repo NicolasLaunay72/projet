@@ -1,5 +1,5 @@
 body {
-    background: url('../public/background/wallpaper.png') no-repeat center center fixed #7ee90b;
+    background: url('../public/background/wallpaper.png') no-repeat center center fixed #00fd48;
     background-size: cover;
     font-family: 'Roboto', sans-serif; /* Application de la police Roboto */
     color: #000000;
@@ -8,11 +8,18 @@ body {
 }
 
 #DivTotal {
-    background-color: rgba(0, 0, 0, 0.8); /* semi-transparent background */
+    background-color: #000000cc; /* semi-transparent background */
     text-align: center;
-    color: rgba(255, 255, 255, 0);
-    padding: 50px 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    color: #ffffff00;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 0.5em;
+}
+
+li {
+    list-style-type: none;
 }
 
 .carousel-container {
@@ -41,11 +48,11 @@ body {
 }
 
 #case-1:hover, #case-2:hover, #case-3:hover, #case-4:hover {
-    transform: scale(1.1); /* effet de zoom plus marqué */
+    transform: scale(1.05); /* effet de zoom plus marqué */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-#installation, #slider-container {
+#installation, #slider-container, #slider-container-1, #slider-container-2, #slider-container-5 {
     background-color: rgba(217, 217, 217, 0.9);
     text-align: center;
     border: 5px solid #9D9797;
@@ -56,18 +63,40 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#installation:hover, #slider-container:hover {
-    transform: scale(1.05);
+#slider-container-3 {
+    background-color: rgba(255, 0, 0, 0.9);
+    text-align: center;
+    border: 5px solid #9D9797;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#slider-container-4, #case-6 {
+    background-color: rgba(21, 0, 255, 0.9);
+    text-align: center;
+    border: 5px solid #9D9797;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#installation:hover, #slider-container:hover, #slider-container-1:hover, #slider-container-2:hover, #slider-container-5:hover, #slider-container-3:hover, #slider-container-4:hover {
+    transform: scale(1.0);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: #000000 !important;
+    background-color: #000000cc !important;
 }
 
 .navbar-dark, .navbar[data-bs-theme="dark"] {
-    --bs-navbar-hover-color: rgba(244, 12, 12, 0.75);
+    --bs-navbar-hover-color: rgba(230, 218, 218, 0.926);
 }
 
 #bouton-download {
@@ -90,4 +119,13 @@ body {
 
 #bouton-download:active {
     transform: translateY(1px);
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px 25px;
+    width: 40%;
 }

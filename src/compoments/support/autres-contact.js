@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Autre_Support() {
     return (
-        <>
+        <div className="container" id="slider-container-5">
             <div className="row">
                 <div className="col-12">
                     <div className="text-center">
@@ -50,7 +50,7 @@ function Autre_Support() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
