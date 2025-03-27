@@ -2,11 +2,16 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "../../compoments/home/logo/logo1.png";
 
-function Image(){
+function Image5(){
     return (
       <div className="container-fluid p-0">
         <div className="row m-0" id="DivTotal">
+        <div className="col-9">
         <h1>Nephilim Warbrides</h1>
+        </div>
+        <div className="col-3 font-end">
+        <button>Inscription/Connexion</button>
+        </div>
           <div className="col-12">
             <img className="img-fluid" src={logo} alt="Logo" width="250" height="250" />
           </div>
@@ -15,4 +20,4 @@ function Image(){
     );
 }
 
-export default Image;
+export default Image5; 

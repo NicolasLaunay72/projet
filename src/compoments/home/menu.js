@@ -23,7 +23,7 @@ function Menu() {
                     <Nav.Link href="/news">News</Nav.Link>
                     <Nav.Link href="/forum">Forum</Nav.Link>
                     <NavDropdown title="Support" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="https://discord.gg/Zq99VtyT5x">Discord</NavDropdown.Item>
+                    <NavDropdown title="Discord" id="Discord"><iframe src="https://discord.com/widget?id=1338868985005084706&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></NavDropdown>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/support">Autre Contacts</NavDropdown.Item>
                     </NavDropdown>

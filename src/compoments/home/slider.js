@@ -31,7 +31,7 @@ function Slider() {
                 <Carousel.Item key={index}>
                   <img className="img-fluid" src={image.url} alt={`Slide ${index + 1}`} />
                   <Carousel.Caption>
-                  <h5 className="py-6">{image.title}</h5>
+                  <h3 className="py-6">{image.title}</h3>
                   <p>{image.description}</p>
                   </Carousel.Caption>
                 </Carousel.Item>

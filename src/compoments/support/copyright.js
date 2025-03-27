@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Copyright3(){
+function Copyright5(){
     return (
       <div className="container-fluid">
         <div className="row">
@@ -11,4 +11,4 @@ function Copyright3(){
     );
 }
 
-export default Copyright3;
+export default Copyright5;

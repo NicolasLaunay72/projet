@@ -32,7 +32,7 @@ function News_Majeur(){
                             <Carousel.Item key={index}>
                                 <img className="img-fluid d-block mx-auto" src={image.url} alt={`Slide ${index + 1}`} style={{ cursor: "pointer" }} onClick={() => window.open(image.link, "_blank")} />
                                 <Carousel.Caption>
-                                    <h5 className="py-2 cursor-pointer" onClick={() => window.open(image.link, "_blank")} style={{ cursor: "pointer", color: "#FFFFFF" }}>{image.title}</h5>
+                                    <h3 className="py-2 cursor-pointer" onClick={() => window.open(image.link, "_blank")} style={{ cursor: "pointer", color: "#FFFFFF" }}>{image.title}</h3>
                                     <p>{image.description}</p>
                                 </Carousel.Caption>
                             </Carousel.Item>

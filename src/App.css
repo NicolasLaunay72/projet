@@ -1,5 +1,5 @@
 body {
-    background: url('../public/background/wallpaper.png') no-repeat center center fixed #00fd48;
+    background: url('../public/background/wallpaper.png') no-repeat center center fixed #bafd00;
     background-size: cover;
     font-family: 'Roboto', sans-serif; /* Application de la police Roboto */
     color: #000000;
@@ -52,7 +52,7 @@ li {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-#installation, #slider-container, #slider-container-1, #slider-container-2, #slider-container-5 {
+#installation, #slider-container, #slider-container-1, #slider-container-2, #slider-container-5, #slider-container-6 {
     background-color: rgba(217, 217, 217, 0.9);
     text-align: center;
     border: 5px solid #9D9797;
@@ -128,4 +128,60 @@ li {
     margin: auto;
     padding: 15px 25px;
     width: 40%;
+}
+
+#inputPost {
+    display: initial;
+    justify-content: end;
+    margin: 5px;
+    border: 1px solid #000000;
+    align-items: start;
+    width: 94.64%;
+}
+
+.post {
+    background-color: #FFFFFF;
+    position: static;
+    justify-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+
+#pholder {
+    width: 100%;
+    text-align: center;
+}
+
+#Discord {
+    color: var(--bs-dropdown-link-color);
+    background-color: var(--bs-dropdown-link-bg);
+    border: 0px solid #7289DA;
+    margin-left: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#copyright {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    #video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 15px 25px;
+        width: 40%;
+        height: 100%;
+    }
 }

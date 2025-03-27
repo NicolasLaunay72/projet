@@ -7,26 +7,26 @@ function Autre_Support() {
             <div className="row">
                 <div className="col-12">
                     <div className="text-center">
-                        <h1>Support</h1>
+                        <h2>Support</h2>
                     </div>
                     <div>
                         <div className="col-12 text-center">
                             <label>
                                 <div>
-                                    Pseudo
+                                    <li>Pseudo:</li>
                                 </div>
                                 <input name="username" />
                             </label>
                             <br />
                             <label>
                                 <div>
-                                    Email
+                                    <li>Email:</li>
                                 </div>
                                 <input name="email" />
                             </label>
                             <hr />
-                            <p>
-                                Problème:
+                            <div className="col-12 text-center">
+                                <li>Problème:</li>
                                 <div>
                                     <label>
                                         <input type="radio" name="problème" value="Problème de Compte" />
@@ -45,7 +45,9 @@ function Autre_Support() {
                                         Problème de Téléchargement
                                     </label>
                                 </div>
-                            </p>
+                            </div>
+                            <br />
+                            <button> Valider </button>
                         </div>
                     </div>
                 </div>
